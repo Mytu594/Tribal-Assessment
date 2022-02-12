@@ -1,0 +1,21 @@
+﻿@charset "UTF-8";
+.guoChuang {
+  margin-bottom: 50px; }
+  .guoChuang .sctnRtCttUlLi-more {
+    margin-bottom: 15px; }
+  .guoChuang .sctnRtCttUlLiCrsl-ul > li {
+    height: 90px; }
+    .guoChuang .sctnRtCttUlLiCrsl-ul > li > a {
+      height: 90px; }
+  .guoChuang .fjdtRt-carousel {
+    overflow: hidden; }
+    .guoChuang .fjdtRt-carousel > div > ul {
+      height: 32px; }
+
+.gcLftHdrLft-icon {
+  background: url(../img/icons.png) -140px -1611px no-repeat; }
+
+.gcLft-content {
+  display: block;
+  height: 288px; }
+

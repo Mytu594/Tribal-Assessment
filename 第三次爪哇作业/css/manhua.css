@@ -1,0 +1,53 @@
+.mhsctnLft-content {
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+.mhsctnLft-content .mh-module{
+	display:block;
+	position: relative;
+    width: 160px;
+    height: 261px;
+    font-size: 12px;
+    overflow: hidden;
+    margin-bottom:8px;
+}
+.manhua .pic {
+  position: relative;
+  display: block;
+  width: 160px;
+  height: 213px;
+  border-radius: 4px; }
+  .manhua .pic > img {
+    width: 160px;
+    height: 213px;
+    border-radius: 4px; }
+
+.manhua .t{
+	padding-top: 8px;
+    height: 20px;
+    line-height: 20px;
+    transition: all .2s linear;
+    color: #222;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+}
+.manhua .label{
+	width: 100%;
+    bottom: 0;
+    height: 20px;
+    line-height: 20px;
+    color: #99a2aa;
+    background-color: #fff;
+}
+.mhsctnRtCtt-ul {
+  position: relative;
+  overflow: hidden; }
+  .mhsctnRtCtt-ul > li {
+    position: relative;
+    float: left;
+    width: 260px;
+    height: 468px; }
+  .mhsctnRtCtt-ul > li:nth-child(2) {
+    background-color: pink; }

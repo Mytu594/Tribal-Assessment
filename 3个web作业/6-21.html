@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>无标题文档</title>
+	<style type="text/css">
+		*{text-decoration:none;text-align:center;}
+		body{width:1100px;height:550px;}
+		table{border:0px;margin:0;frame:void;rules:none;
+			cellspacing:0px;cellpadding:0px;
+		table-layout:fixed;/*使table的宽度固定*/}
+		.input1{width:600px;height:45px;align:center;border-color:red;margin-top:0px;padding:0px;text-align:left;}
+		.input2{width:120px;height:50px;align:center;background-color:red;margin-top:0px;padding:0px;border:0px;}
+	.p{width:25px;height:25px;background:#000000;border-radius:50%;/*画圆*/}
+	.d{width:980px;height:50px;float:left;margin-left:18px;}
+	.d1{width:150px;height:400px;float:left;box-shadow:5px 0px 5px rgb(195,200,203);}
+	.dd{width:10px;height:400px;float:left;}
+	.d2{width:750px;height:350px;float:left;margin:0;padding:0;}
+.d1_2{width:910px;height:400px;margin-left:20px;position:relative;/*设置相对静止的父层*/}
+.d3{width:200px;height:400px;background-color:#FFFFFF;float:left;
+top:250px;left:840px;position:absolute;z-index:0;/*设置第一层绝对静止的子层*/}
+.d4{width:25px;height:600px;float:right;
+top:0;left:1100px;position:absolute;z-index:1;/*设置第二层绝对静止的子层*/}
+</style>
+</head>
+
+<body>
+	<div width="960px" height="550px" float="left">
+		<table width="960px" height="30px">
+			<tr>
+				<td style="width:200px;"><a href=""><font color="red" size="-1">亲，请登录&nbsp;&nbsp;免费注册</font></a></td>
+				<td style="width:460px;"></td>
+				<td style="width:60px;height:5px;"><font color="red" size="-1">手机端</font></td>
+				<td style="width:60px;height:5px;"><font color="red" size="-1">商城首页</font></td>
+				<td style="width:60px;height:5px;"><font size="-1">个人中心</font></td>
+				<td style="width:60px;height:5px;"><font color="red" size="-1">购物车</font><font size="-1">0</font></td>
+				<td style="width:60px;height:5px;"><font size="-1">,收藏夹</font></td>
+			</tr>
+			<tr>
+				<td><img src="images/logobig.png" alt=""></td>
+				<td colspan="3"><input type="text" size="85" name="" value="搜索" class="input1"></td>
+				<td colspan="2"><input type="button" name="搜索" value="搜索" class="input2"></td>
+			</tr>
+		</table>
+		<div class="d">
+			<table width="960px" height="50px">
+				<tr>
+					<td bgcolor="#C75658" style="width:148px;height:30px;">全部分类</td>
+					<td>首页</td><td>|</td>
+					<td>闪购</td><td>|</td>
+					<td>生鲜</td><td>|</td>
+					<td>团购</td><td>|</td>
+					<td>全球购</td>
+					<td colspan="3">&nbsp;&nbsp;</td>
+					<td><p class="p"></p></td>
+					<td style="width:85px"><font color="#FDF848">我的福利</font></td>
+				</tr>
+			</table>
+		</div>
+		<hr color="red" width="100%" style="margin:0">
+		<div class="d1_2">
+			<div class="d1">
+				<table width="150px" height="400px" border-left="10px" bgcolor="#211D1D" rules="rows" frame="hsides">
+					<tr><td><img src="images/cake.png" alt="" style="width:25px;height:25px"><font color="#FFFFFF" size="-1">&nbsp;家用电器&nbsp;&nbsp;>&nbsp;</font></td></tr>
+					<tr><td><img src="images/cookies.png" alt="" style="width:25px;height:25px"><font color="#FFFFFF" size="-1">&nbsp;手机/数码&nbsp;>&nbsp;</font></td></tr>
+					<tr><td><img src="images/meat.png" alt="" style="width:25px;height:25px"><font color="#FFFFFF" size="-1">&nbsp;家居/家具&nbsp;>&nbsp;</font></td></tr>
+					<tr><td><img src="images/bamboo.png" alt="" style="width:25px;height:25px"><font color="#FFFFFF" size="-1">&nbsp;素食/卤味&nbsp;>&nbsp;</font></td></tr>
+					<tr><td><img src="images/nut.png" alt="" style="width:25px;height:25px"><font color="#FFFFFF" size="-1">&nbsp;坚果/炒货&nbsp;>&nbsp;</font></td></tr>
+					<tr><td><img src="images/candy.png" alt="" style="width:25px;height:25px"><font color="#FFFFFF" size="-1">&nbsp;糖果/蜜饯&nbsp;>&nbsp;</font></td></tr>
+					<tr><td><img src="images/chocolate.png" alt="" style="width:25px;height:25px"><font color="#FFFFFF" size="-1">&nbsp;巧克力&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;</font></td></tr>
+					<tr><td><img src="images/fish.png" alt="" style="width:25px;height:25px"><font color="#FFFFFF" size="-1">&nbsp;海味/河鲜&nbsp;>&nbsp;</font></td></tr>
+					<tr><td><img src="images/tea.png" alt="" style="width:25px;height:25px"><font color="#FFFFFF" size="-1">&nbsp;花茶/果茶&nbsp;>&nbsp;</font></td></tr>
+					<tr><td><img src="images/package.png" alt="" style="width:25px;height:25px"><font color="#FFFFFF" size="-1">&nbsp;品牌/礼包&nbsp;>&nbsp;</font></td></tr>
+				</table>
+			</div>
+			<div class="dd"></div>
+			<div class="d2">
+				<table width="740px" height="350px" bgcolor="#FF9900">
+					<tr><td><img src="images/ad3.png" alt="" width="737px" height="350px"></td></tr>
+				</table>
+			</div>
+		</div>
+		<div class="d3">
+			<table width="200px" height="200px" align="left">
+				<tr><td><font color="red" size="-1">商城头条</font></td></tr>
+				<tr><td><font size="-1">【特惠】商城爆品1分钟</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+				<tr><td><font size="-1">【公告】商城签署战略合作</font></td></tr>
+				<tr><td><font size="-1">【特惠】洋河年末大促，低</font></td></tr>
+				<tr><td><font size="-1">【公告】华北、华中部分地</font></td></tr>
+				<tr><td><font size="-1">【特惠】家电狂欢千亿礼券</font></td></tr>
+			</table>
+		</div>
+	</div>
+	<div class="d4">
+		<table width="25px" height="600px" bgcolor="#211D1D">
+			<tr></tr>
+			<tr></tr>
+			<tr style="width:25px;height:10px"><td><font color="#FFFFFF" size="-1">购</font></td></tr>
+			<tr style="width:25px;height:10px"><td><font color="#FFFFFF" size="-1">物</font></td></tr>
+			<tr style="width:25px;height:10px"><td><font color="#FFFFFF" size="-1">车</font></td></tr>
+			<tr style="width:25px;height:25px"><td><img src="images/{}.png" alt=""></td></tr>
+			<tr></tr>
+			<tr style="width:25px;height:10px"><td><img src="images/wdsc.png" alt="" width="25px" height="25px"></td></tr>
+			<tr style="width:25px;height:10px"><td><img src="images/chongzhi.png" alt="" width="25px" height="25px"></td></tr>
+			<tr></tr>
+		</table>
+	</div>
+</body>
+</html>
